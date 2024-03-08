@@ -1,9 +1,6 @@
 import ai
 import streamlit as st
 from streamlit_chat import message
-from dotenv import load_dotenv
-
-load_dotenv(".env")
 
 chat_placeholder = st.empty()
 

@@ -18,7 +18,7 @@ def on_btn_click():
     del st.session_state.past[:]
     del st.session_state.generated[:]
 
-st.title("Chat placeholder")
+st.title("ArIA")
 
 with chat_placeholder.container():
     st.button("Clear message", on_click=on_btn_click)
